@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Minted Girl</title>
+
+    <!--Main CSS Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+     <!--Other Stylesheets-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!--Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Lora:wght@700&display=swap" rel="stylesheet">
+
+ 
+
+   
+    <!--scripts -->
+    <script src="https://kit.fontawesome.com/b4f2b5b20f.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+ </head>
+
+  <body id="top">
+    <header>
+      <div class="logo-container">
+        <a href="index.html">
+          <img src= images/logo_t.png alt="Minted Girl Logo" title="Minted Girl Logo" width="180" />
+        </a>
+        
+<!-- (A) MENU WRAPPER -->
+<nav id="hamnav">
+  <!-- (B) THE HAMBURGER -->
+  <label for="hamburger">&#9776;</label>
+  <input type="checkbox" id="hamburger"/>
+
+  <!-- (C) MENU ITEMS -->
+  <div id="hamitems">
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+</div>
+
+  </header>
+
+    <main>
+
+      <section class="container">
+
+        <div class="video">
+          <div class="video-button">
+          <div id="watchVideo"><button class="text" onclick="playVid()">Watch Video</button></div>
+          </div>
+          <video class="video-image" width="320" height="240"  controls autoplay poster="images/Video-image.jpg">
+          <source src="about-video.files/html5video/about-video.m4v" type="video/mp4" />
+          <source src="about-video.files/html5video/about-video.ogv" type="video/ogg" />
+          Your browser does not support the video tag.
+          </video>
+        </div>
+      <!--<figure>
+        <img src="images/Video-image.jpg"  alt="My image">
+     
+    </figure> -->
+
+
+
+ 
+
+      <div class="about">
+        <article class="about-me">
+          <h2> Hello! Welcome to my site!</h2>
+
+          <p>  My name is Nasim aka The Minted Girl. I love the color mint, lavender (inspired by the lavender fields) and beautiful designs! I have always been drawn to the design world, I used to practice writing fonts as a child, fascinated with the way you can shape lines and make them into different designs. I have a varied background and have lived in different countries growing up which gives me a unique and flexible perspective. I love making peoples visions into reality, designing is my passion and I would love to help you bring your vision to life.</p>
+
+        </article>
+
+        <aside class="resume-button"><a href="PDF/nasim-resume.pdf" target="_blank">View Resume</a></aside>
+
+
+      </div>
+    </section>
+    </main>
+    <footer>
+      <section class="footer-icon">
+        <a href="https://www.facebook.com/The-Minted-Girl-110144481157024" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/themintedgirl/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </section>
+
+       <nav>
+         <ul class="footer-nav">
+           <li><a href="index.html">Home</a></li>
+           <li><a href="contact.html">Contact Us</a></li>
+           <li><a href="#top">Back to Top ^ </a></li>
+         </ul>
+       </nav>
+
+    </footer>
+ 
+    <script src="lightbox/src/js/lightbox.js"></script>
+    <script src="scripts/scripts.js" type="text/javascript"></script>
+  </body>
+</html>
