@@ -215,8 +215,8 @@ header nav a:hover{
   position: relative;
 }
 .video-image {
-  width: 411px;
-  height: auto;
+  width: 57vh;
+  height: 30vh;
   object-fit: cover;
   margin-bottom: -4px;
   opacity: 1;
@@ -539,14 +539,14 @@ footer {
 
 
   }
-@media screen and (min-width:659px){
+@media screen and (min-width:540px){
   .logo-container {
     width: 100%;
   }
 
   .video-image {
-    width: 1024px;
-    height: 900px;
+    width: 102vh;
+    height: 90vh;
   }
 }
 
