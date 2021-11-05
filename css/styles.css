@@ -150,6 +150,7 @@ header nav a:hover{
     /*width: 80%;*/
     position: sticky;
     top: 0;
+    background: #85f3d9f0;
   }
   
   #hamitems { display: flex; }
@@ -232,7 +233,7 @@ background-color: #85f3d999;
 .video-button {
   position: absolute;
   top: 50%;
-  left: 85%;
+  left: 40%;
   transition: .5s ease;
   opacity: 0;
   transform: translate(-50%, -50%);
@@ -311,7 +312,7 @@ background-color: #85f3d999;
 =========================*/
 .port_container {
   width: 100%;
-  margin: auto;
+  margin: 26px;
   display:flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -541,6 +542,12 @@ footer {
     width: 100%;
   }
 
+   #hamnav {
+     background: none;
+   }
+ 
+  
+
   } 
 
   @media (max-width: 411px) {
@@ -557,9 +564,11 @@ footer {
   }
 
   .video-image {
-    width: 102vh;
+    width: 78vh;
     height: 90vh;
   }
+
+ 
 }
 
 
@@ -587,6 +596,23 @@ footer {
     font-style: normal;
     font-size: 1.6em;
     padding: 15px;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  footer a {
+    font-size: 1em;
+  }
+
+  .text {
+    padding: 12px 15px;
+  }
+
+  p {
+    line-height: 32px;
   }
 
  /* #hamnav {
