@@ -151,6 +151,7 @@ header nav a:hover{
     position: sticky;
     top: 0;
     background: #85f3d9f0;
+    z-index: 9999;
   }
   
   #hamitems { display: flex; }
@@ -404,7 +405,7 @@ span.lb-caption {
 
 =========================*/
 .contact {
-  display: flex;
+
   justify-content: center;
 }
 .text-box {
@@ -430,7 +431,7 @@ span.lb-caption {
 .contact-bottom {
   display: flex;
   flex-direction: column;
-  margin: 77px;
+  margin: 8px 77px 61px;
   align-content: center;
   /* margin-right: 83px; */
   /* margin-bottom: 49px; */
@@ -561,6 +562,8 @@ footer {
       max-width: 100%;
       display: flex;
     }
+
+    
   }
   
   @media (min-width: 960px) {
@@ -585,8 +588,25 @@ footer {
    #hamnav {
      background: none;
    }
- 
-  
+   .contact-bottom {
+
+    display: flex;
+    flex-direction: row;
+    /*margin: 8px 77px 61px;*/
+    /* margin-right: 83px; */
+    /* margin-bottom: 49px; */
+    align-items: flex-end;
+    justify-content: space-between;
+   }
+
+   .text-box {
+     font-size: 64px;
+   }
+
+   .text-box p{
+     line-height: 68px;
+   }
+
 
   } 
 
@@ -595,7 +615,9 @@ footer {
       margin: 5px;
       max-width: 40%;
     }
-
+    .text-box {
+      font-size: 30px;
+    }
 
   }
 @media screen and (min-width:540px){
@@ -658,6 +680,9 @@ footer {
   .photo-gallery {
     padding: 90px;
   }
+
+
+
 
  /* #hamnav {
     width: 100%;
